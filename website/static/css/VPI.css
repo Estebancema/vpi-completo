@@ -1,0 +1,33 @@
+navbar-default .nav>li>a:hover,
+navbar-default .nav>li>a:focus {
+    background-color: grey;
+    color: black;
+}
+
+dropdown-menu {
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(86, 96, 117, 0.7);
+    display: none;
+    float: left;
+    font-size: 12px;
+    left: 0;
+    list-style: none outside none;
+    padding: 0;
+    position: absolute;
+    text-shadow: none;
+    top: 100%;
+    z-index: 1000;
+}
+
+body{
+    background-color: whitesmoke;
+}
+nav {
+}
+navbar-brand {
+    position: relative;
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+}
